@@ -1,0 +1,36 @@
+fields:
+    title:
+        label: Назва
+        span: full
+        required: 1
+        type: text
+    description:
+        label: Опис
+        size: ''
+        span: full
+        required: 1
+        type: richeditor
+    smallImage:
+        label: 'Мале зображення'
+        mode: image
+        imageWidth: '480'
+        imageHeight: '480'
+        fileTypes: 'jpg,jpeg,png'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+    heroImage:
+        label: 'Велике зображення'
+        mode: image
+        imageWidth: '1366'
+        imageHeight: '800'
+        fileTypes: 'jpg,jpeg,png'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

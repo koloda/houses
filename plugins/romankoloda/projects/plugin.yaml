@@ -1,0 +1,25 @@
+plugin:
+    name: 'romankoloda.projects::lang.plugin.name'
+    description: 'romankoloda.projects::lang.plugin.description'
+    author: kolo_da
+    icon: oc-icon-home
+    homepage: ''
+navigation:
+    projectCategories:
+        label: Проекти
+        url: romankoloda/projects/projects
+        icon: icon-home
+        sideMenu:
+            projects:
+                label: Проекти
+                url: romankoloda/projects/projects
+                icon: icon-home
+    projectCategories2:
+        label: 'Категорії проектів'
+        url: romankoloda/projects/projectcategories
+        icon: icon-list
+        sideMenu:
+            projects2:
+                label: Проекти
+                url: romankoloda/projects/projects
+                icon: icon-home

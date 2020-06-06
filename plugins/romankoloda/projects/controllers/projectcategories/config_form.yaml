@@ -1,0 +1,10 @@
+name: ProjectCategories
+form: $/romankoloda/projects/models/projectcategory/fields.yaml
+modelClass: Romankoloda\Projects\Models\ProjectCategory
+defaultRedirect: romankoloda/projects/projectcategories
+create:
+    redirect: 'romankoloda/projects/projectcategories/update/:id'
+    redirectClose: romankoloda/projects/projectcategories
+update:
+    redirect: romankoloda/projects/projectcategories
+    redirectClose: romankoloda/projects/projectcategories

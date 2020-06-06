@@ -1,0 +1,105 @@
+fields:
+    title:
+        label: Назва
+        span: left
+        required: 1
+        type: text
+    category:
+        label: Категорія
+        nameFrom: title
+        descriptionFrom: description
+        span: right
+        required: 1
+        type: relation
+    description:
+        label: Опис
+        size: large
+        span: full
+        required: 1
+        type: richeditor
+    area:
+        label: Площа
+        span: auto
+        required: 1
+        type: number
+    floors:
+        label: 'Кількість поверхів'
+        span: auto
+        default: '1'
+        required: 1
+        type: number
+        tab: Деталі
+    rooms:
+        label: 'Кількість кімнат'
+        span: auto
+        default: '1'
+        required: 1
+        type: number
+    garages:
+        label: 'Кількість гаражів'
+        span: auto
+        required: 1
+        type: number
+        tab: Деталі
+secondaryTabs:
+    fields:
+        smallImage:
+            label: 'Мале зображення'
+            mode: image
+            imageWidth: '480'
+            imageHeight: '480'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: left
+            type: fileupload
+            tab: 'Головна галерея'
+        heroImage:
+            label: 'Широке зображення'
+            mode: image
+            imageWidth: '1366'
+            imageHeight: '600'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: right
+            type: fileupload
+            tab: 'Головна галерея'
+        mainGallery:
+            label: 'Галерея зображень'
+            mode: image
+            imageWidth: '1080'
+            imageHeight: '720'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: 'Головна галерея'
+        facadesGallery:
+            label: Фасади
+            mode: image
+            imageWidth: '1080'
+            imageHeight: '720'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: Фасади
+        blueprintsGallery:
+            label: Креслення
+            mode: image
+            imageWidth: '1080'
+            imageHeight: '720'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Креслення

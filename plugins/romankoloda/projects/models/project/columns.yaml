@@ -1,0 +1,22 @@
+columns:
+    title:
+        label: title
+        type: text
+    small_image:
+        label: small_image
+        type: text
+    area:
+        label: area
+        type: number
+    rooms:
+        label: rooms
+        type: number
+    floors:
+        label: floors
+        type: number
+    garages:
+        label: garages
+        type: number
+    category_id:
+        label: category_id
+        type: number

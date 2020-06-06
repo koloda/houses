@@ -1,0 +1,12 @@
+title: 'Категорії проектів'
+modelClass: Romankoloda\Projects\Models\ProjectCategory
+list: $/romankoloda/projects/models/projectcategory/columns.yaml
+recordUrl: 'romankoloda/projects/projectcategories/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

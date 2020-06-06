@@ -1,0 +1,5 @@
+title: ProjectCategories
+modelClass: Romankoloda\Projects\Models\ProjectCategory
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,17 @@
+name: Проекти
+modelClass: Romankoloda\Projects\Models\Project
+form: $/romankoloda/projects/models/project/fields.yaml
+defaultRedirect: romankoloda/projects/projects
+create:
+    title: 'Додати проект'
+    redirect: 'romankoloda/projects/projects/update/:id'
+    redirectClose: romankoloda/projects/projects
+    flashSave: 'Проект успішно додано'
+update:
+    title: 'Редагувати проект'
+    redirect: romankoloda/projects/projects
+    redirectClose: romankoloda/projects/projects
+    flashSave: 'Проект успішно збережено'
+    flashDelete: 'Проект успішно видалено'
+preview:
+    title: 'Деталі проекту'

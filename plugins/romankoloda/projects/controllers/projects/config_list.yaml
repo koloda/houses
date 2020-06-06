@@ -1,0 +1,12 @@
+title: Проекти
+modelClass: Romankoloda\Projects\Models\Project
+list: $/romankoloda/projects/models/project/columns.yaml
+recordUrl: 'romankoloda/projects/projects/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
